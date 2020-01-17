@@ -15,30 +15,23 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    margin-top: 2px solid white;
 }
 .box{
     height: 300px;
     width: 300px;
     border: 5px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .uno {
     background-image: url('../img/bologna.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 .due {
     background-image: url('../img/londra.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 .tre {
     background-image: url('../img/parigi.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 h2 {
     text-align: center;
