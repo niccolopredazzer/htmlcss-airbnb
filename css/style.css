@@ -6,7 +6,7 @@
 .sfondo {
     height: 100vh;
     width: 100vw;
-    background-color: lightgrey;
+    background-color: grey;
     position: relative;
 }
 .container {
@@ -14,11 +14,13 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%);
+    margin-top: 2px solid white;
 }
 .box{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    border: 10px solid white;
 }
 .uno {
     background-image: url('../img/bologna.PNG');
