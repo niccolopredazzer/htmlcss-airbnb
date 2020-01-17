@@ -20,7 +20,7 @@
 .box{
     height: 300px;
     width: 300px;
-    border: 10px solid white;
+    border: 5px solid white;
 }
 .uno {
     background-image: url('../img/bologna.PNG');
